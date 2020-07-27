@@ -16,6 +16,7 @@
 - [Python 为什么不支持 i++ 自增语法，不提供 ++ 操作符？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/7%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%94%AF%E6%8C%81%20i%2B%2B%20%E8%87%AA%E5%A2%9E%E8%AF%AD%E6%B3%95%EF%BC%8C%E4%B8%8D%E6%8F%90%E4%BE%9B%20%2B%2B%20%E6%93%8D%E4%BD%9C%E7%AC%A6%EF%BC%9F.md)
 - [Python 为什么只需一条语句“a,b=b,a”，就能直接交换两个变量？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/8%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E7%94%A8%E2%80%9Ca%2Cb%3Db%2Ca%E2%80%9D%E6%9D%A5%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8D%A2%E5%8F%98%E9%87%8F%E5%80%BC%EF%BC%9F.md)
 - [Python 为什么用 # 号作注释符？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/9%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8%20%23%20%E5%8F%B7%E4%BD%9C%E6%B3%A8%E9%87%8A%E7%AC%A6%EF%BC%9F.md)
+- [Python 为什么要有 pass 语句？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/10%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%20pass%20%E8%AF%AD%E5%8F%A5%EF%BC%9F.md)
 
 ## 版权声明
 
