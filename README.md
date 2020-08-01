@@ -17,6 +17,7 @@
 - [Python 为什么只需一条语句“a,b=b,a”，就能直接交换两个变量？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/8%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E7%94%A8%E2%80%9Ca%2Cb%3Db%2Ca%E2%80%9D%E6%9D%A5%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8D%A2%E5%8F%98%E9%87%8F%E5%80%BC%EF%BC%9F.md)
 - [Python 为什么用 # 号作注释符？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/9%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8%20%23%20%E5%8F%B7%E4%BD%9C%E6%B3%A8%E9%87%8A%E7%AC%A6%EF%BC%9F.md)
 - [Python 为什么要有 pass 语句？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/10%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%20pass%20%E8%AF%AD%E5%8F%A5%EF%BC%9F.md)
+- [Python 为什么会有个奇怪的“...”对象？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/11%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E4%B8%AA%E5%A5%87%E6%80%AA%E7%9A%84%E2%80%9C...%E2%80%9D%E5%AF%B9%E8%B1%A1%EF%BC%9F.md)
 
 ## 版权声明
 
