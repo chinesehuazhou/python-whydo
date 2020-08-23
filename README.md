@@ -2,7 +2,7 @@
 
 这是“Python为什么”系列文章，主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。
 
-
+如果你有其它话题建议，欢迎提交 issue，或者填写在这份问卷里：https://www.wjx.cn/m/77821760.aspx 
 
 ## 文章列表
 
@@ -19,6 +19,8 @@
 - [Python 为什么要有 pass 语句？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/10%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9C%89%20pass%20%E8%AF%AD%E5%8F%A5%EF%BC%9F.md)
 - [Python 为什么会有个奇怪的“...”对象？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/11%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E4%B8%AA%E5%A5%87%E6%80%AA%E7%9A%84%E2%80%9C...%E2%80%9D%E5%AF%B9%E8%B1%A1%EF%BC%9F.md)
 - [Python 为什么能支持任意的真值判断？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/12%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%83%BD%E6%94%AF%E6%8C%81%E4%BB%BB%E6%84%8F%E7%9A%84%E7%9C%9F%E5%80%BC%E5%88%A4%E6%96%AD%EF%BC%9F.md)
+- [Python 函数为什么会默认返回 None？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/13%E3%80%81Python%20%E5%87%BD%E6%95%B0%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E9%BB%98%E8%AE%A4%E8%BF%94%E5%9B%9E%20None%EF%BC%9F.md) 
+- ​
 
 ## 版权声明
 
