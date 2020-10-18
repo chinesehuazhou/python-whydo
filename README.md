@@ -23,6 +23,8 @@
 - [Python 为什么没有 void 关键字？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/14%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B2%A1%E6%9C%89%20void%20%E5%85%B3%E9%94%AE%E5%AD%97%EF%BC%9F.md) 
 - [Python 之父为什么嫌弃 lambda 匿名函数？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/16%E3%80%81Python%20%E4%B9%8B%E7%88%B6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AB%8C%E5%BC%83%20lambda%20%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%EF%BC%9F.md)
 - [Python 为什么不支持 switch 语句？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/17%E3%80%81Python%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%94%AF%E6%8C%81%20switch%20%E8%AF%AD%E5%8F%A5%EF%BC%9F.md)
+- [Python 疑难问题：[] 与 list() 哪个快？为什么快？快多少呢？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/18%E3%80%81Python%20%E7%96%91%E9%9A%BE%E9%97%AE%E9%A2%98%EF%BC%9A%5B%5D%20%E4%B8%8E%20list()%20%E5%93%AA%E4%B8%AA%E5%BF%AB%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BF%AB%EF%BC%9F%E5%BF%AB%E5%A4%9A%E5%B0%91%E5%91%A2%EF%BC%9F.md)
+- [为什么说 Python 内置函数并不是万能的？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/19%E3%80%81%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%20Python%20%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%E5%B9%B6%E4%B8%8D%E6%98%AF%E4%B8%87%E8%83%BD%E7%9A%84%EF%BC%9F.md)
 
 ## 版权声明
 
