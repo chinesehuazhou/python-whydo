@@ -26,6 +26,7 @@
 - [Python 疑难问题：[] 与 list() 哪个快？为什么快？快多少呢？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/18%E3%80%81Python%20%E7%96%91%E9%9A%BE%E9%97%AE%E9%A2%98%EF%BC%9A%5B%5D%20%E4%B8%8E%20list()%20%E5%93%AA%E4%B8%AA%E5%BF%AB%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BF%AB%EF%BC%9F%E5%BF%AB%E5%A4%9A%E5%B0%91%E5%91%A2%EF%BC%9F.md)
 - [为什么说 Python 内置函数并不是万能的？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/19%E3%80%81%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%20Python%20%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%E5%B9%B6%E4%B8%8D%E6%98%AF%E4%B8%87%E8%83%BD%E7%9A%84%EF%BC%9F.md)
 - [为什么继承 Python 内置类型会出问题？！](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/20%E3%80%81%E4%B8%BA%E4%BB%80%E4%B9%88%E7%BB%A7%E6%89%BF%20Python%20%E5%86%85%E7%BD%AE%E7%B1%BB%E5%9E%8B%E4%BC%9A%E5%87%BA%E9%97%AE%E9%A2%98%EF%BC%9F%EF%BC%81.md)
+- [为什么 Python 的 f-string 可以拼接字符串与数字？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/21%E3%80%81%E4%B8%BA%E4%BB%80%E4%B9%88%20Python%20%E7%9A%84%20f-string%20%E5%8F%AF%E4%BB%A5%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%95%B0%E5%AD%97%EF%BC%9F.md)
 
 ## 版权声明
 
