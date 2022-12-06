@@ -72,4 +72,3 @@ void 作为函数的空返回值类型，这种用法在 C++/Java 中也被继�
 
 那么，为什么 Python 没有 void 关键字呢？请往上翻，重新阅读本文……
 
-本文属于“Python为什么”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。所有文章将会归档在 Github 上，项目地址：[https://github.com/chinesehuazhou/python-whydo](https://github.com/chinesehuazhou/python-whydo) 

@@ -1,7 +1,5 @@
 # Python 为什么能支持任意的真值判断？
 
-> 本文出自“Python为什么”系列，请查看[全部文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUyOTk2MTcwNg==&action=getalbum&album_id=1338406397180084225&subscene=0&scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzUyOTk2MTcwNg%3D%3D%26mid%3D2247485945%26idx%3D1%26sn%3D02f1ac9a690f57accefeed7a1ea1247b%26chksm%3Dfa584e7ccd2fc76af5d45ebbc43c1e4d379a0fcfeee8ce70111a8a293c4b7efc8ac7a82dfd6a%26xtrack%3D1%26scene%3D0%26subscene%3D91%26sessionid%3D1596284425%26clicktime%3D1596284604%26enterid%3D1596284604%26ascene%3D7%26devicetype%3Dandroid-28%26version%3D2700103f%26nettype%3DWIFI%26abtest_cookie%3DAAACAA%253D%253D%26lang%3Dzh_CN%26exportkey%3DAa1rI96xIRQ8cDJChmQS9BU%253D%26pass_ticket%3DP%252BUyocSqsqUN5JuCQOyjZNpQH%252Fwm0bsN6NchdKKM9CFDDEu0ZPKsRpo8Utu4BBRc%26wx_header%3D1#wechat_redirect) 
-
 Python 在涉及`真值判断`（[Truth Value Testing](https://docs.python.org/3/library/stdtypes.html#truth-value-testing)）时，语法很简便。
 
 比如，在判断某个对象是否不为 None 时，或者判断容器对象是否不为空时，并不需要显示地写出判断条件，只需要在 if 或 while 关键字后面直接写上该对象即可。
@@ -122,5 +120,3 @@ Python 中`if xxx` 这种简便的写法，虽然是正规的真值判断语法�
 - **if/while 是隐性的布尔操作符：** 它们除了有“判断”真假的作用，还具有隐式地将普通对象计算出布尔结果的功能。实际的操作是解释器根据“POP_JUMP_IF_FALSE”指令来完成的，其核心逻辑跟内置的 bool() 是共用了一个底层方法
 - **真值判断过程依赖两个魔术方法：** 除非被判断对象有\_\_bool\_\_() 方法返回`False` 或者有\_\_len\_\_() 方法返回`0` ，否则布尔操作的结果都是 True。两个魔术方法总是会先计算\_\_bool\_\_()
 - **数字类型也可做真值判断：** 数字有\_\_bool\_\_() 魔术方法，但没有\_\_len\_\_() 魔术方法，除了表示 0 的数字为 False，其它数字都为 True
-
-本文属于“Python为什么”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。若你有其它感兴趣的话题，欢迎填在《[Python的十万个为什么？](https://mp.weixin.qq.com/s/jobdpO7BWWON0ruLNpn31Q) 》里的调查问卷中。

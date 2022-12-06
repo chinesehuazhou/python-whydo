@@ -1,7 +1,5 @@
 # 为什么 Python 的 f-string 可以连接字符串与数字？
 
-> 本文出自“Python为什么”系列，归档在 Github 上：[https://github.com/chinesehuazhou/python-whydo](https://github.com/chinesehuazhou/python-whydo)
-
 毫无疑问，Python 是一门**强类型**语言。**强类型**语言。**强类型**语言！（关于强弱类型话题，推荐阅读这篇 [技术科普文](https://mp.weixin.qq.com/s/GRq8Hg4jqIzCglHRdrWtww)）
 
 这就意味着，不同类型的对象通常需要先做**显式地类型转化，** 然后才能进行某些操作。
@@ -96,6 +94,4 @@ expression 会按 \_\_format\_\_ 协议进行格式化，但是并不会直接�
 在默认情况下，`format_spec` 是一个空字符串，而`format(value, "")` 的效果等同于`str(value)` ，因此，在不指定其它 format_spec 的情况下，**可以简单地认为 f-string 就是调用了 str() 来作的类型转化……** 
 
 至此，我们看到了 f-string 的实现原理，明白了它在拼接字符串与数字时，效果等效于前文的 format() 格式化方法，也等效于使用 str() 进行类型转化。
-
-写在最后：本文属于“[Python为什么](https://github.com/chinesehuazhou/python-whydo)”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。更多精彩文章，请移步 Github 查看，项目地址：[https://github.com/chinesehuazhou/python-whydo](https://github.com/chinesehuazhou/python-whydo)
 

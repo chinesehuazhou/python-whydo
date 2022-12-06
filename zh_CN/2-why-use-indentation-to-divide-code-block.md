@@ -1,4 +1,57 @@
-# Python 的缩进是不是反人类的设计？
+# Python 为什么使用缩进来划分代码块？
+
+Python 为什么使用缩进来划分代码块，而不像其它语言使用花括号 {} 或者 “end” 之类的语法？
+
+Python 的缩进是一个老生常谈的话题，经常有人会提及它，比如 Python 之父 2020 年 4 月曾在 Twitter 上转发过一篇文章[《Python: Myths about Indentation》](https://web.archive.org/web/20070922223915/http://www.secnetix.de/~olli/Python/block_indentation.hawk) 讨论这个话题。
+
+出处：[Guido 发的 twitter](https://twitter.com/gvanrossum/status/1249549091584892928)
+
+![](http://ww1.sinaimg.cn/large/68b02e3bgy1gej2tpfbsfj20o70dmq4c.jpg)
+
+因为这篇文章，Guido 还受邀在 Python Bytes 播客上录制了一期节目：[179: Guido van Rossum drops in on Python Bytes](https://pythonbytes.fm/episodes/show/179/guido-van-rossum-drops-in-on-python-bytes) 
+
+![](http://ww1.sinaimg.cn/large/68b02e3bgy1gemhl6sns3j20ug0jqtrw.jpg)
+
+![](http://ww1.sinaimg.cn/large/68b02e3bgy1gen4u72qktj20v20kwgnm.jpg)
+
+可在 Youtube 上观看[播客节目的视频版](https://www.youtube.com/watch?v=PlvvVXeU0yw&feature=youtu.be)
+
+那么，Python 为什么要用缩进来划分代码块呢？
+
+我收集梳理了几份材料，接下来将带大家一起揭晓 Python 这么做的设计原因：
+
+![](http://ww1.sinaimg.cn/large/68b02e3bgy1gen4kbernmj20xm0dujtj.jpg)
+
+1. 缩进语法，更加优雅
+2. 缩进语法，更加清晰
+3. 使用缩进，保持一致性，避免造成误读
+4. 使用缩进，代码更紧凑，便于浏览，没有累赘
+5. 使用缩进，已足够令解释器执行，没必要使用多余的符号
+6. 强制缩进，源自古老的 ABC 语言，Guido 是这门语言的设计者之一
+7. 其思想可能出自 Don Knuth（高德纳，著名计算机科学家，经典巨著《计算机程序设计艺术》的作者），他在 1974 年提出，在当时是很时髦和前卫的思想
+8. 使用缩进，可以终结大括号放在函数名后面还是再换一行的终极争论（据说此话题能令不同派系的程序员大打出手！）
+
+以上罗列的原因主要来源于 Python [官方文档对缩进的解释](https://docs.python.org/3/faq/design.html#why-does-python-use-indentation-for-grouping-of-statements)、[官方早期 wiki 的解释](https://wiki.python.org/moin/Why%20separate%20sections%20by%20indentation%20instead%20of%20by%20brackets%20or%20%27end%27)。
+
+![](http://ww1.sinaimg.cn/large/68b02e3bgy1gej3n16gf9j215z0m90wy.jpg)
+
+![](http://ww1.sinaimg.cn/large/68b02e3bgy1gej3mqctuvj20yj0mf77q.jpg)
+
+以及 Python 之父的早期访谈：
+
+> **问：为什么你在设计 Python 语言的时候采用了强制缩进的方式来划分程序域？**
+> 
+> 答：这种强制缩进，并不是什么新概念。当年我在 CWI 使用 ABC 语言编程的时候，人家就这么干的。我从 ABC 语言中继承了这个概念。不过 occam 这种很古老的语言也是用了这种方式，我不知道他们是谁先采用的，也许都是独创。这种思想也可能出自 Don Knuth（高德纳，著名计算机科学家，经典巨著《计算机程序设计艺术》的作者），他早在 1974 年就提出过这种做法。
+
+总而言之，Python 使用缩进语法，体现了它非常优雅、清晰的设计美学，对开发者、读者以及解释器，都极为友好。
+
+实话说，我本人非常赞许 Python 的缩进，因此才第一眼就迷上了它，如果是使用了花括号之类的语法，那 Python 就顿时黯淡，也就食之无味了！
+
+---
+
+附注：我在中文的技术圈里发了文章后，收到了大量的反对意见，这非常出乎意料，因此又写了下面这篇文章作进一步解释。
+
+## 《Python 的缩进是不是反人类的设计？》
 
 前些天，我写了《[Python为什么使用缩进来划分代码块？](https://mp.weixin.qq.com/s/byhJnKoKSDnhUNUE9WWopw)》，文中详细梳理了 Python 采用缩进语法的 8 大原因。我极其喜欢这种简洁优雅的风格，所以对它赞美有加。
 
@@ -82,17 +135,19 @@
 
 除了上面的评论/观点之外，我们在微信交流群里也讨论了这个话题。@樱雨楼（[https://github.com/yingyulou](https://github.com/yingyulou)） 小姐姐的观点对我挺有启发。
 
-群聊截图已记录在“Python知识星球”里（https://t.zsxq.com/jeM33bQ），其中她提到了编程语言在设计上的“比较抽象和哲学”的两点：
+![](../img/3-wechat-1.jpg)
+![](../img/3-wechat-2.jpg)
+![](../img/3-wechat-3.jpg)
+![](../img/3-wechat-4.jpg)
+![](../img/3-wechat-5.jpg)
+
+群聊截图已记录如上，其中她提到了编程语言在设计上的“比较抽象和哲学”的两点：
 
 - 缩进使得代码失去了形式语言里所谓的“上下文无关文法”，从而使得空格+数量的组合变得不再是可有可无的。
 - block 作为一个“语法组分”，需要一个定界符，而空格一般不作为语法组分，所以就觉得少了些什么。
 
 三言两语没法转述清楚，但她谈论缩进话题的视角确实令人耳目一新！
 
-上次的文章发出后，有不少小伙伴表示很喜欢 Python 的缩进。我本以为会听到很多这类的声音，没想到却是负面的评论更多。（也许更多认同的声音没有表现出来）
+上次的文章发出后，也有不少小伙伴表示很喜欢 Python 的缩进。我本以为会听到很多这类的声音，没想到却是负面的评论更多。（也许更多认同的声音没有表现出来）
 
 本文对几类典型的评论作出了回应，再次表达了我在这个话题上的关注和理解（以及情绪的抒发），希望也能给读者们带来一些思考和收获吧。
-
-
-
-写在最后：本文属于“Python为什么”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。若你有其它感兴趣的话题，欢迎填在《[Python的十万个为什么？](https://mp.weixin.qq.com/s/jobdpO7BWWON0ruLNpn31Q) 》里的调查问卷中。部分话题会推出视频版，请在 B 站收看，观看地址：[视频地址](https://space.bilibili.com/97566624/video) 

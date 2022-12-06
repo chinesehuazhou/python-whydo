@@ -255,5 +255,3 @@ match-case 结构神似于 switch-case 结构，然而它基于模式（pattern�
 沿着这条线索，本文拆解了 PEP-275 和 PEP-3103 这两篇文档，带大家看到了 Python 社区里提出过的风格各异的 switch 方案，以及诸多的悬而未决的问题。
 
 最后，我们还关注到了最新的 PEP-622 的动态，看起来 switch 的“孪生兄弟” match 语法有望引入到 Python 中！switch 话题的讨论似乎要终止了，但是另一个更大的话题正在进行中！
-
-本文属于“Python为什么”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。所有文章将会归档在 Github 上，欢迎大家给颗小星星，项目地址：https://github.com/chinesehuazhou/python-whydo

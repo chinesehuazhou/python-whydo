@@ -1,7 +1,5 @@
 # 为什么继承 Python 内置类型会出问题？！
 
-> 本文出自“Python为什么”系列，请查看[全部文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUyOTk2MTcwNg==&action=getalbum&album_id=1338406397180084225&subscene=0&scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzUyOTk2MTcwNg%3D%3D%26mid%3D2247485945%26idx%3D1%26sn%3D02f1ac9a690f57accefeed7a1ea1247b%26chksm%3Dfa584e7ccd2fc76af5d45ebbc43c1e4d379a0fcfeee8ce70111a8a293c4b7efc8ac7a82dfd6a%26xtrack%3D1%26scene%3D0%26subscene%3D91%26sessionid%3D1596284425%26clicktime%3D1596284604%26enterid%3D1596284604%26ascene%3D7%26devicetype%3Dandroid-28%26version%3D2700103f%26nettype%3DWIFI%26abtest_cookie%3DAAACAA%253D%253D%26lang%3Dzh_CN%26exportkey%3DAa1rI96xIRQ8cDJChmQS9BU%253D%26pass_ticket%3DP%252BUyocSqsqUN5JuCQOyjZNpQH%252Fwm0bsN6NchdKKM9CFDDEu0ZPKsRpo8Utu4BBRc%26wx_header%3D1#wechat_redirect) 
-
 不久前，`Python猫` 给大家推荐了一本书《流畅的Python》（[点击可跳转阅读](https://mp.weixin.qq.com/s/A4_DD2fvceNk1apn9MQcXA)），那篇文章有比较多的“溢美之词”，显得比较空泛……
 
 但是，《流畅的Python》一书值得反复回看，可以温故知新。最近我偶然翻到书中一个有点诡异的知识点，因此准备来聊一聊这个话题——**子类化内置类型可能会出问题？！** 
@@ -94,7 +92,7 @@ print(my_cat.say())         # 输出：喵喵
 然而，当 Python 在实现继承时，**似乎不完全**会按照上述的规则运作。它分为两种情况：
 
 - 符合常识：对于用 Python 实现的类，它们会遵循“子类先于父类”的原则
-- 违背常识：对于实际是用 C 实现的类（即str、list、dict等等这些内置类型），在显式调用子类方法时，会遵循“子类先于父类”的原则；但是，**在存在隐式调用时，**它们似乎会遵循“父类先于子类”的原则，即通常的继承规则会在此失效
+- 违背常识：对于实际是用 C 实现的类（即str、list、dict等等这些内置类型），在显式调用子类方法时，会遵循“子类先于父类”的原则；但是，**在存在隐式调用时，** 它们似乎会遵循“父类先于子类”的原则，即通常的继承规则会在此失效
 
 对照 PythonCat 的例子，相当于说，直接调用 my_cat.inner_voice() 时，会得到正确的“喵喵”结果，但是在调用 my_cat.say() 时，则会得到超出预期的“喵”结果。
 
@@ -130,7 +128,7 @@ dd.update(three=3)      # {'three': 3, 'one': 1, 'two': [2, 2]}
 
 这几个魔术方法其实是相互独立的！\_\_init\_\_()有自己的 setitem 实现，并不会调用父类的\_\_setitem\_\_()，当然跟子类的\_\_setitem\_\_()就更没有关系了。
 
-从逻辑上理解，字典的\_\_init\_\_()方法中包含\_\_setitem\_\_()的功能，因此我们以为前者会调用后者，**这是惯性思维的体现，**然而实际的调用关系可能是这样的：
+从逻辑上理解，字典的\_\_init\_\_()方法中包含\_\_setitem\_\_()的功能，因此我们以为前者会调用后者，**这是惯性思维的体现，** 然而实际的调用关系可能是这样的：
 
 ![](http://ww1.sinaimg.cn/large/68b02e3bgy1gkok0fm3ucj20u10c574u.jpg)
 
@@ -211,5 +209,3 @@ dd.update(three=3)      # {'one': [1, 1], 'two': [2, 2], 'three': [3, 3]}
 如果我们对特殊方法间的关系有错误的认知，就可能会认为 Python 破坏了“子类方法先于父类方法”的基本继承原则。（很遗憾《流畅的Python》和 PyPy 都有此错误的认知）
 
 为了迎合大家对内置类型的普遍预期，Python 在标准库中提供了 UserString、UserList、UserDict 这些扩展类，方便程序员来继承这些基本的数据类型。
-
-写在最后：本文属于“[Python为什么](https://github.com/chinesehuazhou/python-whydo)”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。若你有其它感兴趣的话题，欢迎填在《[Python的十万个为什么？](https://mp.weixin.qq.com/s/jobdpO7BWWON0ruLNpn31Q) 》里的调查问卷中。

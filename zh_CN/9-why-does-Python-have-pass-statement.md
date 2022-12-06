@@ -1,7 +1,5 @@
 # Python 为什么要有 pass 语句？
 
-> 本文出自“Python为什么”系列，请查看[全部文章](https://github.com/chinesehuazhou/python-whydo) 
-
 关于 Python 中的`pass`语句，它似乎很简单（只有 4 个字母），即使是没有任何编程经验的初学者也能很快地掌握它的用法。
 
 [官方文档](https://docs.python.org/3/tutorial/controlflow.html#pass-statements) 的介绍十分简单，下面的三个例子可以让我们快速地了解到如何使用它：
@@ -57,7 +55,7 @@ def func():
 func()
 ```
 
-因为 Python 使用缩进来划分代码块（至于原因，请查阅《[Python为什么使用缩进来划分代码块？](https://mp.weixin.qq.com/s/byhJnKoKSDnhUNUE9WWopw)》），而冒号标识着要出现新的缩进代码块，所以这个例子会报缺少缩进代码块。
+因为 Python 使用缩进来划分代码块，而冒号标识着要出现新的缩进代码块，所以这个例子会报缺少缩进代码块。
 
 如果我们用前文说的注释来替代，看看会怎样？
 
@@ -99,10 +97,5 @@ Python 在定义函数时，必须包含函数体，即同时包含声明加定�
 **Python 使用 pass 语句，是为了支持纯粹空操作的代码块（空函数、空类、空的循环控制块等等），有了它，还能额外表达出一种占位符的语义。** 
 
 前者是对于机器而言的，必须要有，等效于其它语言中空花括号的作用；后者是对于人而言的，非必须的，可以用注释来表达，但因为 Python 设计了这个语句，这种用法有时候还挺方便的。
-
-
-
-本文属于“Python为什么”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。若你有其它感兴趣的话题，欢迎填在《[Python的十万个为什么？](https://mp.weixin.qq.com/s/jobdpO7BWWON0ruLNpn31Q) 》里的调查问卷中。
-
 
 

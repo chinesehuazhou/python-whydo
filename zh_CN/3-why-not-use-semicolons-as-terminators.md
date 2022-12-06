@@ -34,8 +34,3 @@ Python 不用分号作为终止符，大概有如下的原因：
 1、[A Brief History of the Semicolon in Programming](https://medium.com/better-programming/a-brief-history-of-the-8efda9dde2b8)
 
 2、[The End of the Semicolon Era](https://medium.com/@elizarov/the-end-of-the-semicolon-era-60ab95e669ab)
-
-
-
-写在最后：本文属于“Python为什么”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。若你有其它感兴趣的话题，欢迎填在《[Python的十万个为什么？](https://mp.weixin.qq.com/s/jobdpO7BWWON0ruLNpn31Q) 》里的调查问卷中。部分话题会推出视频版，请在 B 站收看，观看地址：[视频地址](https://space.bilibili.com/97566624/video) 
-

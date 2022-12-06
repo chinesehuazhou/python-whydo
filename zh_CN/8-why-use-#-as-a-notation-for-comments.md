@@ -16,16 +16,14 @@
 - \# 注释符：Bourne shell and other UNIX shells, Cobra, Perl, Python, Ruby, Seed7, Windows PowerShell, PHP, R, Make, Maple, Elixir, Nim
 
 
-那么，**Python 为什么用“#”号作注释符，而不是“//”呢？ **  
+那么，**Python 为什么用“#”号作注释符，而不是“//”呢？**  
 
 这个问题恐怕没办法从解析的效率、符号的辨识度和输入的便利性等方面回答，因为它们基本上没有区别。
 
 我没有找到官方的解释，但是从这些注释符的阵营中，已经不难得出一个较为合理的解释：
 
 - // 注释符基本上被 C 语言家族所用
-
 - \# 注释符则基本上是被 Shell 和其它脚本语言所用
-
 
 Python 在创造之初，从 C 和 Shell 语言中借鉴了不少东西，但它是一种脚本语言，因此在注释符这个最为基础的语言要素上，就偏向了脚本语言的传统。
 
@@ -49,7 +47,7 @@ PEP-8 中是这么建议的：
 
 > Each line of a block comment starts with a `#` and a single space (unless it is indented text inside the comment).
 
-有人曾在 Twitter 上发问，为什么 Python 没有块注释符？
+有人曾在 Twitter 上发问，**为什么 Python 没有块注释符？**
 
 Guido 回复称，可以将多行字符串用作块注释：
 
@@ -66,7 +64,3 @@ Python 的多行字符串用三对单引号或双引号表示，它还可以用�
 另外，对于无用的代码，最好的做法就是直接删除，如果后续发现有需要，再回退修改。详细的多行注释尽量放在文档字符串中，这样在核心代码中就会很少出现多行注释的情况了。
 
 对于 Python 的注释符用法，大家是怎么想的呢？欢迎留言交流。
-
-
-
-写在最后：本文属于“Python为什么”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。若你有其它感兴趣的话题，欢迎填在《[Python的十万个为什么？](https://mp.weixin.qq.com/s/jobdpO7BWWON0ruLNpn31Q) 》里的调查问卷中。部分话题会推出视频版，请在 B 站收看，观看地址：[视频地址](https://space.bilibili.com/97566624/video) 

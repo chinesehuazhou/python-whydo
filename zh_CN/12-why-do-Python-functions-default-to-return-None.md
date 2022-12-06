@@ -2,7 +2,7 @@
 
 Python 有一项默认的做法，很多编程语言都没有——**它的所有函数都会有一个返回值，不管你有没有写 return 语句。** 
 
-本文出自“[Python为什么](https://github.com/chinesehuazhou/python-whydo)”系列，在正式开始之前，我们就用之前讨论过的 [pass语句](https://mp.weixin.qq.com/s/GpBOO0MLsc6g_mNq85Zy0A) 和 [...对象](https://mp.weixin.qq.com/s/SOSN_p74eDHv3tJnSJIZfg) 作为例子，看看 Python 的函数是怎样“无中生有”的：
+在正式开始之前，我们就用之前讨论过的 [pass语句](https://mp.weixin.qq.com/s/GpBOO0MLsc6g_mNq85Zy0A) 和 [...对象](https://mp.weixin.qq.com/s/SOSN_p74eDHv3tJnSJIZfg) 作为例子，看看 Python 的函数是怎样“无中生有”的：
 
 ![](http://ww1.sinaimg.cn/large/68b02e3bgy1ghrfq5bfplj20ep09h40k.jpg)
 
@@ -42,6 +42,4 @@ Python 有一项默认的做法，很多编程语言都没有——**它的所�
 
 那么，这就会引出新的问题：**Python 为什么要求函数都要有返回值呢？为什么它不像某些语言那样，提供一个 void 关键字，支持定义无返回值的空函数呢？**  
 
-关于这个问题，我们将在下一期“[Python为什么](https://github.com/chinesehuazhou/python-whydo)”系列文章中揭晓。
-
-本文属于“Python为什么”系列（Python猫出品），该系列主要关注 Python 的语法、设计和发展等话题，以一个个“为什么”式的问题为切入点，试着展现 Python 的迷人魅力。所有文章将会归档在 Github 上，项目地址：[https://github.com/chinesehuazhou/python-whydo](https://github.com/chinesehuazhou/python-whydo)
+请查看本系列的下一篇文章！
