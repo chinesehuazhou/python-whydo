@@ -135,11 +135,15 @@ Python 的缩进是一个老生常谈的话题，经常有人会提及它，比�
 
 除了上面的评论/观点之外，我们在微信交流群里也讨论了这个话题。@樱雨楼（[https://github.com/yingyulou](https://github.com/yingyulou)） 小姐姐的观点对我挺有启发。
 
-![](../img/3-wechat-1.jpg)
-![](../img/3-wechat-2.jpg)
-![](../img/3-wechat-3.jpg)
-![](../img/3-wechat-4.jpg)
-![](../img/3-wechat-5.jpg)
+![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-1.jpg)
+
+![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-2.jpg)
+
+![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-3.jpg)
+
+![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-4.jpg)
+
+![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-5.jpg)
 
 群聊截图已记录如上，其中她提到了编程语言在设计上的“比较抽象和哲学”的两点：
 

@@ -37,7 +37,7 @@
 	- 很多人以为“a,b=b,a”（交换变量操作）跟“a,b=1,2”（多变量赋值）一样，都是基于元组解包的特性，然而 CPython 的实现并非如此
 	- CPython 使用专门的优化指令（即 ROT_TWO、ROT_THREE 和 ROT_FOUR）实现栈顶元素的快捷交换
 	- 当同时交换的元素数量大于 4 个时，解释器才会跟“a,b=1,2”（多变量赋值）一样，基于解包实现变量赋值
-- [Python 为什么用 # 号作注释符？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/8-why-use-#-as-a-notation-for-comments.md)
+- [Python 为什么用 # 号作注释符？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/8-why-use-%23-as-a-notation-for-comments.md)
 	- 注释符是编程语言中最基础的要素之一，Python 属于“# 号注释符阵营”，原因或许是它遵循着 Shell 等脚本语言的传统
 	- Python 中不存在“块注释符”，Guido 曾建议使用多行字符串（multi-line strings）来达到块注释的效果，但这种方案在语义上有点怪异
 - [Python 为什么要有 pass 语句？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/9-why-does-Python-have-pass-statement.md)
