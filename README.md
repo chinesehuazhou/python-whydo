@@ -99,6 +99,8 @@
 - [为什么说 Python 最会变魔术的魔术方法是它？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/25-why-is-it-the-most-magical-magic-method-in-Python.md)
 	- \_\_missing\_\_() 是仅在内置类型的子类上才存在的魔术方法，似乎是唯一的特例
 	- \_\_missing\_\_() 极为特殊，Python 解释器为它开了后门，实现了最为罕见的“魔术方法间调用”逻辑
+- [Python 为什么用”elif“，而不是“else if”？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/26-why-does-Python-use-elif-instead-of-else-if.md)
+	- elif 写法相比于“else if”更为简洁，这种写法并非 Python 首创。Guido 发推特解释了这种写法的来源
 
 ## 相关资料
 
