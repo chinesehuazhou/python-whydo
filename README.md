@@ -84,6 +84,21 @@
 	- 切片是不少编程语言的特性，Python 的切片不仅功能完善，而且在使用上更为灵活
 	- 索引越界是一个常见的问题，Python 切片使用了几条规则，屏蔽了可能导致出错的情况
 	- 文章介绍了 Python 的解决方案，但是也留下了一个疑问：为什么 Python 的切片语法要允许索引超出边界呢，为什么不设计成抛出索引错误？
+- [为什么 range() 生成的不是迭代器？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/22-why-doesn't-range()-generate-an-iterator.md)
+	- 有很多内置方法可以生成迭代器，然而似乎只有 range() 生成的是可迭代对象，这个 range() 显得非常独特。文中给出了我对此的猜想
+	- 我还注意到 range 是一种不可变序列，然而它跟字符串这种不可变序列相比，也有着独特的表现
+- [Python 为什么要保留显式的 self ？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/23-why-does-Python-keep-explicit-self.md)
+	- 这也是一个常见问题。这里给出了官方文档的解释，另外附了 Guido 的一篇博客全文
+- [Python 为什么不设计 do-while 循环结构？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/24-why-doesn't-Python-design-a-do-while-loop.md)
+	- 在 C/C++、C#、PHP、Java、JavaScript 等语言中，do-while 是一种基本结构。Python 为什么不沿袭它们的传统呢？有什么特殊的考虑？
+	- 文章列举了其它语言中 do-while 语法的主要使用场景，解释了为什么 Python 可以不用这种结构
+	- 介绍了 PEP-315 试图引入 do-while 结构的尝试，以及 Guido 的反对意见
+- [为什么 Python 3 把 print 改为函数？](https://github.com/chinesehuazhou/peps-cn/blob/master/StandardsTrack/3105--%E6%94%B9%20print%20%E4%B8%BA%E5%87%BD%E6%95%B0.md)
+	- Python3 与 Python2 最显眼的一个区别就是：print 语句变成了 print() 函数
+	- PEP-3105 Make print a function 是对这个问题最好的回答
+- [为什么说 Python 最会变魔术的魔术方法是它？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/25-why-is-it-the-most-magical-magic-method-in-Python.md)
+	- \_\_missing\_\_() 是仅在内置类型的子类上才存在的魔术方法，似乎是唯一的特例
+	- \_\_missing\_\_() 极为特殊，Python 解释器为它开了后门，实现了最为罕见的“魔术方法间调用”逻辑
 
 ## 相关资料
 
