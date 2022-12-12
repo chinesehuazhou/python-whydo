@@ -1,6 +1,19 @@
 # Python 设计和历史的常见问题
 
-本文引用自 [Python 文档（3.10）](https://docs.python.org/zh-cn/3.10/faq/design.html#id3) ，有些问题在本仓库中有更详细的文章解读，可对照阅读。
+Python 官方文档中有[一系列的 FAQ](https://docs.python.org/3/faq/index.html)：
+
+-   [General Python FAQ](https://docs.python.org/3/faq/general.html)
+-   [Programming FAQ](https://docs.python.org/3/faq/programming.html)
+-   [Design and History FAQ](https://docs.python.org/3/faq/design.html)
+-   [Library and Extension FAQ](https://docs.python.org/3/faq/library.html)
+-   [Extending/Embedding FAQ](https://docs.python.org/3/faq/extending.html)
+-   [Python on Windows FAQ](https://docs.python.org/3/faq/windows.html)
+-   [Graphic User Interface FAQ](https://docs.python.org/3/faq/gui.html)
+-   [“Why is Python Installed on my Computer?” FAQ](https://docs.python.org/3/faq/installed.html)
+
+其中很多问题是关于“怎么做”、“有没有”、“是不是”，另外也有不少是本仓库最为关注的“为什么”，这些问题在“Design and History FAQ”中比较多。
+
+本文引用自 [Python 文档（3.10）](https://docs.python.org/zh-cn/3.10/faq/design.html#id3) 的“Design and History FAQ”，有些问题在本仓库中有更详细的文章解读，可对照阅读。
 
 目录
 
