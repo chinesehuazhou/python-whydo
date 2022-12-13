@@ -1,4 +1,4 @@
-# Python 为什么？
+![Guido的推文](http://tva1.sinaimg.cn/large/68b02e3bgy1h8zp59nxw6j20ge05stab.jpg)# Python 为什么？
 
 自从接触到 Python 优雅的语法、流畅的编程体验以及活泼的开源社区后，我就成为了这门语言的忠实粉丝！我阅读了大量的书籍和文章，收获了很多知识，同时也积累了很多自己的思考。
 
@@ -23,6 +23,8 @@
 - [Python 为什么使用缩进来划分代码块？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/2-why-use-indentation-to-divide-code-block.md)
 	- 这是个经典的问题，总会被提起，我总结了 8 个原因
 	- 有不少人对上述 8 个原因并不买账，因此我补充了一个回复：Python 的缩进绝不是反人类的设计！
+	- Guido 在一次采访中说：严格要求代码缩进确实有点夸张，改用花括号，也不是不可以
+	- Python 的缩进起源于 ABC，而 ABC 的缩进起源于 60-70 年代的编程畅想
 - [Python 为什么不用分号作语句终止符？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/3-why-not-use-semicolons-as-terminators.md)
 	- 分号一般有分隔符与终止符两种作用，但 Python 只用分号作为分隔符，却不用它作为终止符， 而是改用换行作为终止符。本文精炼总结了 5 个原因
 - [Python 为什么没有 main 函数？为什么我不推荐写 main 函数？](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/4-why-doesn't-Python-have-main-function.md)

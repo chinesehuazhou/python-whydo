@@ -49,9 +49,9 @@ Python 的缩进是一个老生常谈的话题，经常有人会提及它，比�
 
 ---
 
-附注：我在中文的技术圈里发了文章后，收到了大量的反对意见，这非常出乎意料，因此又写了下面这篇文章作进一步解释。
+## 附注1：《Python 的缩进是不是反人类的设计？》
 
-## 《Python 的缩进是不是反人类的设计？》
+我在中文的技术圈里发了文章后，收到了大量的反对意见，这非常出乎意料，因此又写了下面这篇文章作进一步解释。
 
 前些天，我写了《[Python为什么使用缩进来划分代码块？](https://mp.weixin.qq.com/s/byhJnKoKSDnhUNUE9WWopw)》，文中详细梳理了 Python 采用缩进语法的 8 大原因。我极其喜欢这种简洁优雅的风格，所以对它赞美有加。
 
@@ -155,3 +155,22 @@ Python 的缩进是一个老生常谈的话题，经常有人会提及它，比�
 上次的文章发出后，也有不少小伙伴表示很喜欢 Python 的缩进。我本以为会听到很多这类的声音，没想到却是负面的评论更多。（也许更多认同的声音没有表现出来）
 
 本文对几类典型的评论作出了回应，再次表达了我在这个话题上的关注和理解（以及情绪的抒发），希望也能给读者们带来一些思考和收获吧。
+
+
+--------------
+## 附注2：CSDN 专访 Guido
+
+2022 年 9 月，CSDN 的[《程序员》杂志专访 Guido](https://mp.weixin.qq.com/s/cxuZ5JuTSFYb95MvczNosA)，又谈到了缩进话题。谈话内容节选：
+
+**邹欣：大家刚接触 Python 这门语言时都会好奇的就是强制的代码缩进。如果重来一次，你是否会放弃缩进这个强制要求？**
+
+Guido：代码缩进（Indentation）其实并不是我发明的，当时的同事给了我启发。在 Python 中要求进行代码缩进的原因是 30 年前的代码编辑器都不能很好地对代码进行缩进排版，所以我就想鼓励程序员自己来对代码进行正确的排版，从而确保程序员从视觉上对代码的理解与编译器对代码的解析是一致的。这其实非常重要，几年前苹果公司就发生过一次非常严重的代码安全漏洞事故，就是由于代码中一个语句与程序员实际设想的 if-else 语法逻辑没有匹配而引起的，如图 1 。其实，严格要求代码缩进确实有点夸张，改用花括号，也不是不可以。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Pn4Sm0RsAuiaTUD3eZdIwANqM67L8QzrdG7lGujyyyyg7625vHNuOWibS2kibiblcDBUle39XReueT3fOicXBVgG6CA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图1：Apple的SSL/TLS错误
+
+-----------------------
+## 附注3：[Python 缩进语法的起源：上世纪 60-70 年代的大胆创意](https://github.com/chinesehuazhou/python-whydo/blob/master/zh_CN/27-the-origins-of-Python-indentation.md)
+
+2022 年 11 月，Guido 在 CWI 时的导师写了一篇《[The Origins of Python](https://inference-review.com/article/the-origins-of-python)》，其中谈到了缩进语法的起源问题，因此，我继续挖掘了 Python 缩进语法的设计思想。
