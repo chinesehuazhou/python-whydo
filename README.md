@@ -1,4 +1,4 @@
-![Guido的推文](http://tva1.sinaimg.cn/large/68b02e3bgy1h8zp59nxw6j20ge05stab.jpg)# Python 为什么？
+# Python 为什么？
 
 自从接触到 Python 优雅的语法、流畅的编程体验以及活泼的开源社区后，我就成为了这门语言的忠实粉丝！我阅读了大量的书籍和文章，收获了很多知识，同时也积累了很多自己的思考。
 
