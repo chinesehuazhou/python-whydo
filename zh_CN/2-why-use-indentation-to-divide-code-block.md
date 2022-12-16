@@ -135,17 +135,7 @@ Python 的缩进是一个老生常谈的话题，经常有人会提及它，比�
 
 除了上面的评论/观点之外，我们在微信交流群里也讨论了这个话题。@樱雨楼（[https://github.com/yingyulou](https://github.com/yingyulou)） 小姐姐的观点对我挺有启发。
 
-![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-1.jpg)
-
-![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-2.jpg)
-
-![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-3.jpg)
-
-![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-4.jpg)
-
-![](https://raw.githubusercontent.com/chinesehuazhou/python-whydo/master/zh_CN/img/3-wechat-5.jpg)
-
-群聊截图已记录如上，其中她提到了编程语言在设计上的“比较抽象和哲学”的两点：
+群聊截图已记录[在此](https://github.com/chinesehuazhou/python-whydo/tree/master/zh_CN/img/2)，其中她提到了编程语言在设计上的“比较抽象和哲学”的两点：
 
 - 缩进使得代码失去了形式语言里所谓的“上下文无关文法”，从而使得空格+数量的组合变得不再是可有可无的。
 - block 作为一个“语法组分”，需要一个定界符，而空格一般不作为语法组分，所以就觉得少了些什么。
