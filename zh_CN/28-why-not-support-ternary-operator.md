@@ -129,16 +129,7 @@ b = True and False or "Python猫"
 
 其次，为了验证`X if C else Y` 的有效性，Guido 排查了标准库中所有“and-or”组合的写法，发现那些`C and X or Y` 写法都可以被`X if C else Y` 替换掉。[标准库的情况](https://mail.python.org/pipermail/python-dev/2005-September/056803.html)，证明了这新的语法是可行的。
 
-最后，在 PEP-308 提及的原因外，我还想补充一点。据观察，我发现很多时候我们有一个已初始化的变量，然后需要在出现某个条件时，更新变量的值。在这种情况下，“else”部分可以被省略，非常便捷。
-
-```python
-my_str = ""
-# 中间存在其它代码逻辑
-# 当 condition 为真时，变量会被重新赋值
-my_str = "Python猫" if condition
-```
-
-回顾这段历史，我们可以梳理出一条线索：**Python 没有设计三元运算符“?:”，主要是因为它不符合 Python 明确直观的设计风格。最后采用`X if C else Y` 这种设计，主要的意图其实是消除“and-or”写法的隐患，这种设计简明易读，而且还有`<expression> if <condition>` 简化写法的妙用。**
+回顾这段历史，我们可以梳理出一条线索：**Python 没有设计三元运算符“?:”，主要是因为它不符合 Python 明确直观的设计风格。最后采用`X if C else Y` 这种设计，主要的意图其实是消除“and-or”写法的隐患，这种设计简明易读，非常好用。**
 
 总体而言，**Python 设计者非常看重可读性与可维护性，不采用三元运算符而创造条件表达式语法，这是一个经过了开放讨论、谨慎评估与权衡取舍的结果。**
 
