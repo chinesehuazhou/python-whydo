@@ -4,7 +4,7 @@
 
 [官方文档](https://docs.python.org/3/tutorial/controlflow.html#pass-statements) 的介绍十分简单，下面的三个例子可以让我们快速地了解到如何使用它：
 
-![](http://ww1.sinaimg.cn/large/68b02e3bgy1gh2f7sovw9j20y80g60u7.jpg)
+![](https://img.pythoncat.top/68b02e3bgy1gh2f7sovw9j20y80g60u7.jpg)
 
 简单而言，pass 是一种空操作（null operation），解释器执行到它的时候，除了检查语法是否合法，什么也不做就直接跳过。
 
