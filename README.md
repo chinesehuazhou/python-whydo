@@ -115,6 +115,12 @@
 - [Guido博客](https://python-history.blogspot.com/)：Python 之父的博客， 介绍了 Python 语言发展历史的部分话题
 - [Brett Cannon 的系列文章](https://snarky.ca/tag/syntactic-sugar/)：Python 核心开发者关于语法糖的系列解析，对了解 Python 语法及其实现原理有一定的帮助
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=chinesehuazhou/python-whydo&type=Date)](https://star-history.com/#chinesehuazhou/python-whydo&Date)
+
+
+
 ## 版权声明
 
 全部文章将首发在微信公众号「Python猫」里，欢迎关注：
@@ -122,3 +128,4 @@
 ![](http://ww1.sinaimg.cn/large/68b02e3bgy1gfffh3g28lj2076076q3e.jpg)
 
 授权协议：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
