@@ -12,6 +12,12 @@
 
 如果你有其它话题建议，欢迎[提交 Issue](../../issues/new)。目前的文章主要是中文，欢迎你来翻译成其它语言的版本，同时，欢迎将翻译后的文件提交 pull request 到本仓库。
 
+## 赞助&支持
+
+我正在连载 Python 潮流周刊，它精心筛选中英文的 250+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。
+
+欢迎通过[项目链接](https://github.com/chinesehuazhou/python-weekly)进行了解，如果你喜欢本仓库的内容，我相信你一定会喜欢上这份周刊的！
+
 ## 文章列表
 
 - [Python 设计和历史的常见问题](./zh_CN/0-design-and-history-FAQ.md)
@@ -106,6 +112,9 @@
 - [为什么 Python、Go 和 Rust 都不支持三元运算符？](./zh_CN/28-why-not-support-ternary-operator.md)
   - Python 经历了一个波折的过程才引入条件表达式语法，本文梳理了这段设计背后的故事
   - Go 和 Rust 也不支持三元运算符，但原因各不相同，与 Python 一起比较思考，你会明白更多东西
+- [为什么在 Python 中 hash(-1) == hash(-2)?](./zh_CN/29-why-is-hash-in-python.md)
+  - 这个问题在 Reddit 上被问过，本文翻译了原作者的回答
+  - 作者查阅了 CPython 的源码，解释了 hash() 的实现逻辑，竟然是跟函数的错误码有关，-1 作为错误码，为避免混淆，hash(-1) 返回 -2
 
 ## 相关资料
 
